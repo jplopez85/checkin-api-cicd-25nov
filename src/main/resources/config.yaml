@@ -1,0 +1,16 @@
+http:
+  host: "0.0.0.0"
+  port: "8081"
+  protocol: "HTTPS"
+
+api:
+  id: "21318771"
+  resource: "resource::dc68b014-fd43-4649-ac28-d90cab492846:simplified-check-in-papi:1.2.0:oas:zip:api.yaml"
+
+tls:
+  keyStore:
+    type: "pkcs12"
+    path: "check-in-papi.p12"
+    alias: "server"
+    keyPassword: "mule12345"
+    password: "mule12345"
